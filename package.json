@@ -29,7 +29,6 @@
   },
   "scripts": {
     "prepublishOnly": "npm run compile",
-    "compile": "node scripts/fetch && tsc",
-    "preinstall": "node preinstall.js"
+    "compile": "node scripts/fetch && tsc"
   }
 }
